@@ -57,7 +57,7 @@ function App() {
           </select>
           <select onChange={(ev) => handleChangeSpecialization(ev)} className={`bg-gray-50 border border-ahs_blue-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-ahs_blue-500 dark:focus:border-ahs_blue-500 mx-2`}>
             <option value="all">Alle specialisaties</option>
-            {dataSpecializations && dataSpecializations.length > 0 && dataSpecializations.map((specialization as Specialization) => <option key={specialization.code} value={specialization.code}>{specialization.name}</option>)}
+            {dataSpecializations && dataSpecializations.length > 0 && dataSpecializations.map((specialization) => <option key={specialization.code} value={specialization.code}>{specialization.name}</option>)}
           </select>
         </div>
         <CourseDetailsModal 
