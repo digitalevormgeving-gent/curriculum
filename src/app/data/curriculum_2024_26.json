@@ -1,0 +1,345 @@
+{
+    "id": "curriculum_2024_26",
+    "name": "Curriculum 2024-26",
+    "description": "Curriculum for the 2024-26 school years",
+    "courses": [
+        {
+            "id": "24_25_desprof",
+            "name": "Design Professional",
+            "description": "Learn to be a professional IT person",
+            "credits": 3,
+            "contactHoursPerWeek": 2,
+            "period": "1+2",
+            "semester": 1,
+            "learningLineCode": "dcs",
+            "lecturers": ["CGR", "TBD"],
+            "tags": [
+                "persoonlijke ontwikkeling",
+                "professionele communicatie"
+            ]
+        },
+        {
+            "id": "24_25_bus",
+            "name": "Business",
+            "description": "Learn to be a professional IT person",
+            "credits": 3,
+            "contactHoursPerWeek": 2,
+            "period": "1+2",
+            "semester": 1,
+            "learningLineCode": "dcs",
+            "lecturers": ["CGR", "TBD"],
+            "tags": [
+                "persoonlijke ontwikkeling",
+                "professionele communicatie"
+            ]
+        },
+        {
+            "id": "24_25_comm",
+            "name": "Design Portfolio",
+            "description": "Explore the IT field",
+            "credits": 6,
+            "contactHoursPerWeek": 4,
+            "period": "3+4",
+            "semester": 2,
+            "learningLineCode": "dcs",
+            "lecturers": ["CGR", "TBD"],
+            "tags": [
+                "ambassadeursschap",
+                "design research",
+                "trends en innovaties",
+                "werkplekleren"
+            ]
+        },
+        {
+            "id": "25_26_expl",
+            "name": "Design Exploration",
+            "description": "Explore the Design field",
+            "credits": 6,
+            "contactHoursPerWeek": 4,
+            "period": "5+6",
+            "semester": 3,
+            "learningLineCode": "dcs",
+            "lecturers": ["TBD"],
+            "tags": [
+                "ambassadeursschap",
+                "design research",
+                "trends en innovaties",
+                "werkplekleren"
+            ]
+        },
+        {
+            "id": "24_25_webtech",
+            "name": "Web Technology",
+            "subName": "",
+            "description": "Learn the essentials of web development",
+            "credits": 3,
+            "contactHoursPerWeek": 2,
+            "period": 1,
+            "semester": 1,
+            "learningLineCode": "dat",
+            "lecturers": ["TBD"],
+            "tags": [
+                "html",
+                "css"
+            ]
+        },
+        {
+            "id": "24_25_webdesign",
+            "name": "Web Design",
+            "subName": "",
+            "description": "Learn intermediate web development",
+            "credits": 3,
+            "contactHoursPerWeek": 4,
+            "period": 2,
+            "semester": 1,
+            "learningLineCode": "dat",
+            "lecturers": ["TBD"]
+        },
+        {
+            "id": "24_25_webscripting",
+            "name": "Web Scripting",
+            "subName": "",
+            "description": "Learn advanced web development",
+            "credits": 6,
+            "contactHoursPerWeek": 8,
+            "period": 3,
+            "semester": 2,
+            "learningLineCode": "dat",
+            "lecturers": ["TBD"]
+        },
+        {
+            "id": "24_25_uip",
+            "name": "User Interface Prototyping",
+            "subName": "",
+            "description": "Learn to create web animations and interactions",
+            "credits": 3,
+            "contactHoursPerWeek": 4,
+            "period": 4,
+            "semester": 2,
+            "learningLineCode": "dat",
+            "lecturers": ["TBD"],
+            "specializationCode": "ifd"
+        },
+        {
+            "id": "25_26_interact",
+            "name": "Interaction Design",
+            "subName": "",
+            "description": "Learn to create web applications with frameworks",
+            "credits": 6,
+            "contactHoursPerWeek": 8,
+            "period": 5,
+            "semester": 3,
+            "learningLineCode": "dat",
+            "lecturers": ["TBD"],
+            "specializationCode": "ifd"
+        },
+        {
+            "id": "25_26_ccm",
+            "name": "Content Creation & Management",
+            "subName": "",
+            "description": "Learn to create creative web applications",
+            "credits": 6,
+            "contactHoursPerWeek": 8,
+            "period": 6,
+            "semester": 3,
+            "learningLineCode": "dat",
+            "lecturers": ["TBD"],
+            "specializationCode": "ifd"
+        },
+        {
+            "id": "24_25_desfund",
+            "name": "Design Fundamentals",
+            "subName": "",
+            "description": "Learn the essentials of web development",
+            "credits": 6,
+            "contactHoursPerWeek": 8,
+            "period": 1,
+            "semester": 1,
+            "learningLineCode": "aad",
+            "lecturers": ["TBD"],
+            "tags": [
+                "javascript",
+                "nodejs",
+                "html",
+                "css"
+            ]
+        },
+        {
+            "id": "24_25_graphe",
+            "name": "Graphics Editing",
+            "subName": "",
+            "description": "Learn intermediate web development",
+            "credits": 3,
+            "contactHoursPerWeek": 4,
+            "period": 2,
+            "semester": 1,
+            "learningLineCode": "aad",
+            "lecturers": ["TBD"],
+            "tags": [
+                "javascript",
+                "nodejs",
+                "express",
+                "html",
+                "css"
+            ]
+        },
+        {
+            "id": "24_25_uid",
+            "name": "User Interface Design",
+            "subName": "",
+            "description": "Learn advanced web development",
+            "credits": 6,
+            "contactHoursPerWeek": 4,
+            "period": "1+2",
+            "semester": 1,
+            "learningLineCode": "aad",
+            "lecturers": ["TBD"],
+            "tags": [
+                "javascript",
+                "nodejs",
+                "typescript",
+                "sqlite",
+                "orm",
+                "express",
+                "html",
+                "css"
+            ]
+        },
+        {
+            "id": "25_26_prgm5",
+            "name": "Digital Design",
+            "subName": "Full-stack",
+            "description": "Learn to create full-stack web applications",
+            "credits": 3,
+            "contactHoursPerWeek": 4,
+            "period": 3,
+            "semester": 2,
+            "learningLineCode": "aad",
+            "lecturers": ["JLB"],
+            "specializationCode": "cad"
+        },
+        {
+            "id": "25_26_graphdes",
+            "name": "Graphic Design",
+            "subName": "",
+            "description": "Learn to create mobile applications",
+            "credits": 3,
+            "contactHoursPerWeek": 4,
+            "period": 3,
+            "semester": 2,
+            "learningLineCode": "aad",
+            "lecturers": ["TBD"],
+            "specializationCode": "cad"
+        },
+        {
+            "id": "25_26_idea",
+            "name": "Ideation",
+            "subName": "",
+            "description": "Learn to create mobile applications",
+            "credits": 3,
+            "contactHoursPerWeek": 4,
+            "period": 5,
+            "semester": 3,
+            "learningLineCode": "aad",
+            "lecturers": ["TBD"],
+            "specializationCode": "cad"
+        },
+        {
+            "id": "25_26_motion",
+            "name": "Motion Graphics",
+            "subName": "",
+            "description": "Learn to create mobile applications",
+            "credits": 3,
+            "contactHoursPerWeek": 4,
+            "period": 5,
+            "semester": 3,
+            "learningLineCode": "aad",
+            "lecturers": ["TBD"],
+            "specializationCode": "cad"
+        },
+        {
+            "id": "25_26_mark",
+            "name": "Marketing Design",
+            "subName": "",
+            "description": "Learn to create mobile applications",
+            "credits": 3,
+            "contactHoursPerWeek": 4,
+            "period": 6,
+            "semester": 3,
+            "learningLineCode": "aad",
+            "lecturers": ["TBD"],
+            "specializationCode": "cad"
+        },
+        {
+            "id": "24_25_atw1",
+            "name": "@Work 1",
+            "subName": "Static Web Projects",
+            "description": "Work on static web projects",
+            "credits": 6,
+            "contactHoursPerWeek": 10,
+            "period": 2,
+            "semester": 1,
+            "learningLineCode": "atw",
+            "lecturers": ["TBD"]
+        },
+        {
+            "id": "24_25_atw2",
+            "name": "@Work 2",
+            "subName": "Dynamic Web Projects",
+            "description": "Work on dynamic web projects",
+            "credits": 6,
+            "contactHoursPerWeek": 10,
+            "period": 4,
+            "semester": 2,
+            "learningLineCode": "atw",
+            "lecturers": ["TBD"]
+        },
+        {
+            "id": "25_26_atw3",
+            "name": "@Work 3",
+            "subName": "Multidisciplinary Web Projects",
+            "description": "Work on multidisciplinary web projects",
+            "credits": 9,
+            "contactHoursPerWeek": 14,
+            "period": 6,
+            "semester": 3,
+            "learningLineCode": "atw",
+            "lecturers": ["TBD"]
+        },
+        {
+            "id": "25_26_atw4",
+            "name": "@Work 4",
+            "subName": "Graduation Project",
+            "description": "Work on a graduation project",
+            "credits": 9,
+            "contactHoursPerWeek": 38,
+            "period": 7,
+            "semester": 4,
+            "learningLineCode": "atw",
+            "lecturers": ["TBD"],
+            "tags": [
+                "werkplekleren",
+                "eindwerk",
+                "afstudeerproject",
+                "leerbedrijf"
+            ]
+        },
+        {
+            "id": "25_26_atw5",
+            "name": "@Work 5",
+            "subName": "Internship",
+            "description": "Internship at a company",
+            "credits": 18,
+            "contactHoursPerWeek": 38,
+            "period": 8,
+            "semester": 4,
+            "learningLineCode": "atw",
+            "lecturers": ["TBD"],
+            "tags": [
+                "werkplekleren",
+                "stage",
+                "leerbedrijf"
+            ]
+        }
+    ]
+}

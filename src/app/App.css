@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.curriculum {
+  width: 98vw;
+  margin: 0 auto;
+}
+
+.curriculum__header-container {
+  @apply w-full p-1 sm:p-2 md:p-4 lg:p-6 xl:p-8;
+}
+
+.curriculum__courses-container {
+  grid-template-columns: [p1] minmax(140px, 1fr) [p2] minmax(140px, 1fr) [p3] minmax(140px, 1fr) [p4] minmax(140px, 1fr) [p5] minmax(140px, 1fr) [p6] minmax(140px, 1fr) [p7] minmax(140px, 1fr) [p8] minmax(140px, 1fr);
+  grid-template-rows: [year] auto [sem] auto [per] auto [dcs] auto [dcs_1] auto [dat] auto [dat_1] auto [aad] auto [aad_1] auto [atw] auto;
+  @apply grid gap-2 py-4 w-full overflow-x-scroll overflow-y-hidden;
+}
+
+.curriculum__footer-container {
+  @apply w-full py-2 sm:py-4 md:py-6 lg:py-8 xl:py-10;
+}
+
+.header__year {
+  @apply flex flex-row flex-wrap items-center justify-center text-center font-semibold text-base bg-ahs_black-200 text-ahs_black-700 rounded-md;
+}
+
+.header__semester {
+  @apply flex flex-row flex-wrap items-center justify-center text-center font-semibold text-base bg-ahs_black-200 text-ahs_black-700 rounded-md;
+}
+
+.header__period {
+  @apply flex flex-row flex-wrap items-center justify-center text-center font-semibold text-base bg-ahs_black-200 text-ahs_black-700 rounded-md;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+
+  @apply rounded-lg shadow-md;
+}
+
+.course--dcs {
+  @apply bg-ahs_blue-300 selection:bg-ahs_blue-600;
+}
+
+.course--dat {
+  @apply bg-ahs_green-300 selection:bg-ahs_green-600;
+}
+
+.course--aad {
+  @apply bg-ahs_orange-300 selection:bg-ahs_orange-600;
+}
+
+.course--atw {
+  @apply bg-ahs_red-300 selection:bg-ahs_red-600;
+}
+
+.course__header {
+  @apply flex flex-row justify-between w-full p-1 font-bold text-sm text-ahs_black-50;
+}
+
+.course__content {
+  @apply flex-grow flex flex-col items-center justify-center w-full p-1;
+}
+
+.course__footer {
+  @apply flex flex-row justify-between w-full p-1 font-bold text-sm text-ahs_black-50;
+}
+
+.course__name {
+  @apply font-bold text-base text-ahs_black-50 text-center;
+}
+
+.course__sub-name {
+  @apply font-semibold text-sm text-ahs_black-100 text-center;
+}
+
+.course--dct .course__name {
+  @apply text-ahs_blue-10;
+}
+
+.course--dct .course__sub-name {
+  @apply text-ahs_blue-50;
+}
+
+.course--dct .course__header {
+  @apply text-ahs_blue-50;
+}
+
+.course--dct .course__footer {
+  @apply text-ahs_blue-50;
+}
+
+.course--dat .course__name {
+  @apply text-ahs_green-10;
+}
+
+.course--dat .course__sub-name {
+  @apply text-ahs_green-50;
+}
+
+.course--dat .course__header {
+  @apply text-ahs_green-50;
+}
+
+.course--dat .course__footer {
+  @apply text-ahs_green-50;
+}
+
+.course--aad .course__name {
+  @apply text-ahs_orange-10;
+}
+
+.course--aad .course__sub-name {
+  @apply text-ahs_orange-50;
+}
+
+.course--aad .course__header {
+  @apply text-ahs_orange-50;
+}
+
+.course--aad .course__footer {
+  @apply text-ahs_orange-50;
+}
+
+.course--atw .course__name {
+  @apply text-ahs_red-10;
+}
+
+.course--atw .course__sub-name {
+  @apply text-ahs_red-50;
+}
+
+.course--atw .course__header {
+  @apply text-ahs_red-50;
+}
+
+.course--atw .course__footer {
+  @apply text-ahs_red-50;
+}
+
+.course__lecturers .lecturer::after {
+  content: '|';
+  @apply ml-0.5 mr-0.5 text-center;
+}
+
+.course__lecturers .lecturer:last-of-type::after {
+  content: '';
+  display: none;
+}
+
+.learninglines {
+  @apply flex flex-col md:flex-row flex-wrap items-start md:items-center justify-items-start mt-4;
+}
+
+.learninglines>li {
+  @apply text-ahs_black-500 flex flex-row items-center justify-items-start mr-4;
+}
+
+.learninglines>li::before {
+  content: '';
+  @apply block w-4 h-4 mr-1 rounded-full bg-ahs_black-500;
+}
+
+.learninglines>li[data-code="dcs"]::before {
+  @apply bg-ahs_blue-300;
+}
+
+.learninglines>li[data-code="dat"]::before {
+  @apply bg-ahs_green-300;
+}
+
+.learninglines>li[data-code="aad"]::before {
+  @apply bg-ahs_orange-300;
+}
+
+.learninglines>li[data-code="atw"]::before {
+  @apply bg-ahs_red-300;
+}
+
+dialog {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
+  scrollbar-gutter: stable;
+}
+
+/* enable transitions */
+[popover],
+dialog,
+::backdrop {
+  transition:
+    opacity 1s,
+    transform 1s,
+    display 1s allow-discrete,
+    overlay 1s allow-discrete;
+    
+  @apply opacity-0 scale-0;
+}
+
+/* IN */
+:popover-open,
+:popover-open::backdrop,
+[open],
+[open]::backdrop {
+  @apply opacity-100 scale-100;
+}
+
+/* OUT */
+@starting-style {
+
+  :popover-open,
+  :popover-open::backdrop,
+  [open],
+  [open]::backdrop {
+    @apply opacity-0 scale-0;
+  }
+}
+
+.modal {
+  box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+
+  @apply w-screen lg:w-10/12 xl:w-8/12 overflow-y-auto p-8 translate-x-[-50%] translate-y-[-50%] fixed left-1/2 top-1/2 rounded-lg border-t-8 border-solid border-ahs_orange-400;
+}
+
+.modal.ll--dct {
+  @apply border-ahs_blue-400;
+}
+
+.modal.ll--dat {
+  @apply border-ahs_green-400;
+}
+
+.modal.ll--aad {
+  @apply border-ahs_orange-400;
+}
+
+.modal.ll--atw {
+  @apply border-ahs_red-400;
+}
+
+.modal::backdrop {
+  background: hsl(0 0% 0% / 50%);
+}
+
+.modal-close-btn {
+  @apply absolute top-2 right-2 text-2xl font-semibold;
+}
+
+.course-details__learningline {
+  @apply mb-4 flex flex-row flex-nowrap justify-start items-center text-lg font-semibold text-ahs_black-400;
+}
+
+.course-details__learningline::before {
+  content: '';
+  @apply block w-4 h-4 mr-2 rounded-full bg-ahs_black-500;
+}
+
+.course-details__learningline[data-code="dcs"]::before {
+  @apply bg-ahs_blue-300;
+}
+
+.course-details__learningline[data-code="dat"]::before {
+  @apply bg-ahs_green-300;
+}
+
+.course-details__learningline[data-code="aad"]::before {
+  @apply bg-ahs_orange-300;
+}
+
+.course-details__learningline[data-code="atw"]::before {
+  @apply bg-ahs_red-300;
+}
+
+.course-details__name {
+  @apply text-4xl font-bold mb-2;
+}
+
+.course-details__tags {
+  @apply mb-4 flex flex-row flex-wrap text-ahs_black-400 font-normal text-sm;
+}
+
+.course-details__tags>li {
+  @apply mr-2;
+}
+
+.course-details__tags>li:last-of-type {
+  @apply mr-0;
+}
+
+.course-details__meta {
+  @apply mb-4 flex flex-col flex-nowrap;
+}
+
+.course-details__meta-period {
+  @apply flex flex-row flex-nowrap items-center justify-start;
+}
+
+.course-details__meta-credits {
+  @apply flex flex-row flex-nowrap items-center justify-start;
+}
+
+.course-details__meta-hoursperweek {
+  @apply flex flex-row flex-nowrap items-center justify-start;
+}
+
+.ri {
+  @apply text-xl font-semibold mr-2 text-ahs_black-500;
+}
+
+.course-details__lecturers-title {
+  @apply font-bold text-2xl;
+}
