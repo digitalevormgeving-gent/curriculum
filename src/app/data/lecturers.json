@@ -1,55 +1,71 @@
 [
     {
-        "code": "AGB",
-        "name": "Adriaan Glibert"
+        "code": "IHS",
+        "name": "Ingrid Hemelsoet"
     },
     {
         "code": "CGR",
         "name": "Claire Geeraerts"
     },
     {
-        "code": "DDW",
-        "name": "Dieter De Weirdt"
+        "code": "RVK",
+        "name": "Rein Vyncke"
     },
     {
-        "code": "EVR",
-        "name": "Evelien Rutsaert"
+        "code": "TGS",
+        "name": "Tim Geyssens"
     },
     {
-        "code": "FRG",
-        "name": "Frederick Roegiers"
+        "code": "DDP",
+        "name": "Daniël De Paauw"
     },
     {
-        "code": "IDC",
-        "name": "Inge De Canck"
+        "code": "PHM",
+        "name": "Pahola Herrera Montoya"
     },
     {
-        "code": "ISB",
-        "name": "Inge Sintobin"
+        "code": "LVD",
+        "name": "Lieselot Verdeyen"
     },
     {
         "code": "IVC",
         "name": "Isabelle Volckaert"
     },
     {
-        "code": "JLB",
-        "name": "Jannes Lambrecht"
+        "code": "LVD",
+        "name": "Lieselot Verdeyen"
     },
     {
-        "code": "MSP",
-        "name": "Mathieu Spillebeen"
+        "code": "SDK",
+        "name": "Sam Dekocker"
     },
     {
-        "code": "MVP",
-        "name": "Michael Vanderpoorten"
-    },
-    {
-        "code": "NMN",
-        "name": "Niels Minne"
+        "code": "LDP",
+        "name": "Lennert Deprettere"
     },
     {
         "code": "PDP",
         "name": "Philippe De Pauw - Waterschoot"
+    },
+    {
+        "code": "MVB",
+        "name": "Mark Verbeke"
+    },
+    {
+        "code": "LRT",
+        "name": "Linde Raats"
+    },
+    {
+        "code": "DPR",
+        "name": "Dieter Peirs"
+    },
+    {
+        "code": "SVP",
+        "name": "Sjouwke Van Parys"
+    },
+    {
+        "code": "JLB",
+        "name": "Jannes Lambrecht"
     },
     {
         "code": "TBD",

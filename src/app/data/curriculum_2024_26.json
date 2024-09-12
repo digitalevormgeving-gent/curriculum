@@ -42,7 +42,7 @@
             "period": "3+4",
             "semester": 2,
             "learningLineCode": "dcs",
-            "lecturers": ["CGR", "TBD"],
+            "lecturers": ["LRT", "SVP"],
             "tags": [
                 "ambassadeursschap",
                 "design research",
@@ -77,7 +77,7 @@
             "period": 1,
             "semester": 1,
             "learningLineCode": "dat",
-            "lecturers": ["TBD"],
+            "lecturers": ["SVP","DPR","TBD"],
             "tags": [
                 "html",
                 "css"
@@ -105,7 +105,7 @@
             "period": 3,
             "semester": 2,
             "learningLineCode": "dat",
-            "lecturers": ["TBD"]
+            "lecturers": ["RVK","TGS"]
         },
         {
             "id": "24_25_uip",
@@ -117,7 +117,7 @@
             "period": 4,
             "semester": 2,
             "learningLineCode": "dat",
-            "lecturers": ["TBD"],
+            "lecturers": ["SVP","LRT"],
             "specializationCode": "ifd"
         },
         {
@@ -156,7 +156,7 @@
             "period": 1,
             "semester": 1,
             "learningLineCode": "aad",
-            "lecturers": ["TBD"],
+            "lecturers": ["RVK","LVD"],
             "tags": [
                 "javascript",
                 "nodejs",
@@ -174,7 +174,7 @@
             "period": 2,
             "semester": 1,
             "learningLineCode": "aad",
-            "lecturers": ["TBD"],
+            "lecturers": ["IHS","LRT", "DPR"],
             "tags": [
                 "javascript",
                 "nodejs",
@@ -193,7 +193,7 @@
             "period": "1+2",
             "semester": 1,
             "learningLineCode": "aad",
-            "lecturers": ["TBD"],
+            "lecturers": ["BVW","LRT","SVP"],
             "tags": [
                 "javascript",
                 "nodejs",
@@ -215,7 +215,7 @@
             "period": 3,
             "semester": 2,
             "learningLineCode": "aad",
-            "lecturers": ["JLB"],
+            "lecturers": ["SDK"],
             "specializationCode": "cad"
         },
         {
@@ -228,7 +228,7 @@
             "period": 3,
             "semester": 2,
             "learningLineCode": "aad",
-            "lecturers": ["TBD"],
+            "lecturers": ["DDP","PHM"],
             "specializationCode": "cad"
         },
         {
@@ -280,7 +280,7 @@
             "period": 2,
             "semester": 1,
             "learningLineCode": "atw",
-            "lecturers": ["TBD"]
+            "lecturers": ["BVW","SVP","RVK","DDP"]
         },
         {
             "id": "24_25_atw2",
@@ -292,7 +292,7 @@
             "period": 4,
             "semester": 2,
             "learningLineCode": "atw",
-            "lecturers": ["TBD"]
+            "lecturers": ["IHS","JLB","DDP","LVD"]
         },
         {
             "id": "25_26_atw3",
