@@ -73,7 +73,7 @@
             "subName": "",
             "description": "Learn the essentials of web development",
             "credits": 3,
-            "contactHoursPerWeek": 2,
+            "contactHoursPerWeek": 4,
             "period": 1,
             "semester": 1,
             "learningLineCode": "dat",
