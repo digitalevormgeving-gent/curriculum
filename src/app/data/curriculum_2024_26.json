@@ -12,7 +12,7 @@
             "period": "1+2",
             "semester": 1,
             "learningLineCode": "dcs",
-            "lecturers": ["CGR", "TBD"],
+            "lecturers": ["CGR", "JCB", "FTH"],
             "tags": [
                 "persoonlijke ontwikkeling",
                 "professionele communicatie"
@@ -27,7 +27,7 @@
             "period": "1+2",
             "semester": 1,
             "learningLineCode": "dcs",
-            "lecturers": ["CGR", "TBD"],
+            "lecturers": ["CGR", "JCB", "FTH"],
             "tags": [
                 "persoonlijke ontwikkeling",
                 "professionele communicatie"
@@ -42,7 +42,7 @@
             "period": "3+4",
             "semester": 2,
             "learningLineCode": "dcs",
-            "lecturers": ["LRT", "SVP"],
+            "lecturers": ["LRT", "SVP", "PHM", "SDK"],
             "tags": [
                 "ambassadeursschap",
                 "design research",
@@ -77,7 +77,7 @@
             "period": 1,
             "semester": 1,
             "learningLineCode": "dat",
-            "lecturers": ["SVP","DPR","TBD"],
+            "lecturers": ["SVP","DPR","LRT"],
             "tags": [
                 "html",
                 "css"
@@ -93,7 +93,7 @@
             "period": 2,
             "semester": 1,
             "learningLineCode": "dat",
-            "lecturers": ["TBD"]
+            "lecturers": ["RVK","TGS"]
         },
         {
             "id": "24_25_webscripting",
@@ -105,7 +105,7 @@
             "period": 3,
             "semester": 2,
             "learningLineCode": "dat",
-            "lecturers": ["RVK","TGS"]
+            "lecturers": ["JLB","TBD"]
         },
         {
             "id": "24_25_uip",
