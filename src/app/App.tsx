@@ -6,6 +6,7 @@ import { Course } from '../types/courses'
 
 import dataCurricula from './data/curricula.json';
 import dataCurriculum202426 from './data/curriculum_2024_26.json';
+import dataCurriculum202526 from './data/curriculum_2025_26.json';
 import dataCurriculum202527 from './data/curriculum_2025_27.json';
 import dataLearningLines from './data/learning_lines.json';
 import originalDataSpecializations from './data/specializations.json';
@@ -32,6 +33,7 @@ function App() {
   const handleChangeCurriculum = useCallback((ev: any) => {
     switch (ev.target.value) {
       case "Curriculum 2025-27": default: setDataCurriculum(dataCurriculum202527); break;
+      case "Curriculum 2025-26": setDataCurriculum(dataCurriculum202526); break;
       case "Curriculum 2024-26": setDataCurriculum(dataCurriculum202426); break;
     }
   }, []);
