@@ -15,7 +15,7 @@
 
 .curriculum__courses-container {
   grid-template-columns: [p1] minmax(140px, 1fr) [p2] minmax(140px, 1fr) [p3] minmax(140px, 1fr) [p4] minmax(140px, 1fr) [p5] minmax(140px, 1fr) [p6] minmax(140px, 1fr) [p7] minmax(140px, 1fr) [p8] minmax(140px, 1fr);
-  grid-template-rows: [year] auto [sem] auto [per] auto [dcs] auto [dcs_1] auto [dat] auto [dat_1] auto [aad] auto [aad_1] auto [atw] auto;
+  grid-template-rows: [year] auto [sem] auto [per] auto [dcs] auto [dcs_1] auto [dat] auto [dat_1] auto [aad] auto [aad_1] auto [aad_2] auto [atw] auto;
   @apply grid gap-2 py-4 w-full overflow-x-scroll overflow-y-hidden;
 }
 
