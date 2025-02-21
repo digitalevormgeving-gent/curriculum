@@ -34,8 +34,8 @@ function App() {
 
   const handleChangeCurriculum = useCallback((ev: any) => {
     switch (ev.target.value) {
-      case "Sept-starters Curriculum 2025-27": default: setDataCurriculum(dataCurriculum202527); setIsFebStarters(false); break;
-      case "Feb-sarters Curriculum 2025-28": setDataCurriculum(dataCurriculum202528); setIsFebStarters(true); break;
+      case "Sept-starters curriculum 2025-27": default: setDataCurriculum(dataCurriculum202527); setIsFebStarters(false); break;
+      case "Feb-starters curriculum 2025-28": setDataCurriculum(dataCurriculum202528); setIsFebStarters(true); break;
       case "Curriculum 2025-26": setDataCurriculum(dataCurriculum202526); setIsFebStarters(false); break;
       case "Curriculum 2024-26": setDataCurriculum(dataCurriculum202426); setIsFebStarters(false); break;
     }
