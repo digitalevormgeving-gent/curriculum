@@ -8,6 +8,7 @@ import dataCurricula from './data/curricula.json';
 import dataCurriculum202426 from './data/curriculum_2024_26.json';
 import dataCurriculum202526 from './data/curriculum_2025_26.json';
 import dataCurriculum202527 from './data/curriculum_2025_27.json';
+import dataCurriculum202528 from './data/curriculum_2025_28.json';
 import dataLearningLines from './data/learning_lines.json';
 import originalDataSpecializations from './data/specializations.json';
 import { Specialization } from '../types/specializations';
@@ -19,6 +20,7 @@ function App() {
   const [dataFilteredCurriculum, setDataFilteredCurriculum] = useState(dataCurriculum);
   const [selectedSpecialization, setSelectedSpecialization] = useState("all");
   const [isDetailsModalOpen, setCourseDetailsModalOpen] = useState<boolean>(false);
+  const [isFebStarters, setIsFebStarters] = useState<boolean>(false);
   const [selectedCourse, setSelectedCourse] = useState<Course | null | undefined>(null);
 
   const handleOpenCourseDetailsModal = useCallback((courseId: string) => {
@@ -32,9 +34,10 @@ function App() {
 
   const handleChangeCurriculum = useCallback((ev: any) => {
     switch (ev.target.value) {
-      case "Curriculum 2025-27": default: setDataCurriculum(dataCurriculum202527); break;
-      case "Curriculum 2025-26": setDataCurriculum(dataCurriculum202526); break;
-      case "Curriculum 2024-26": setDataCurriculum(dataCurriculum202426); break;
+      case "Sept-starters Curriculum 2025-27": default: setDataCurriculum(dataCurriculum202527); setIsFebStarters(false); break;
+      case "Feb-sarters Curriculum 2025-28": setDataCurriculum(dataCurriculum202528); setIsFebStarters(true); break;
+      case "Curriculum 2025-26": setDataCurriculum(dataCurriculum202526); setIsFebStarters(false); break;
+      case "Curriculum 2024-26": setDataCurriculum(dataCurriculum202426); setIsFebStarters(false); break;
     }
   }, []);
 
@@ -74,13 +77,24 @@ function App() {
             <header className="curriculum__header-container">
               <h1 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-extrabold text-ahs_black-300">Curriculum Graduaat Digitale Vormgeving</h1>
             </header>
-            <div className="curriculum__courses-container">
+            <div className={`curriculum__courses-container${isFebStarters ? "--feb" : ""}`}>
               <div className="header__year" style={{ gridColumnStart: "p1", gridColumnEnd: "span 4", gridRowStart: "year" }}><h1>1ste jaar</h1></div>
               <div className="header__year" style={{ gridColumnStart: "p5", gridColumnEnd: "span 4", gridRowStart: "year" }}><h1>2de jaar</h1></div>
+              {isFebStarters && 
+                <>
+                  <div className="header__year" style={{ gridColumnStart: "p9", gridColumnEnd: "span 4", gridRowStart: "year" }}><h1>3de jaar</h1></div>
+                </>
+              }
               <div className="header__semester" style={{ gridColumnStart: "p1", gridColumnEnd: "span 2", gridRowStart: "sem"}}>Semester 1</div>
               <div className="header__semester" style={{ gridColumnStart: "p3", gridColumnEnd: "span 2", gridRowStart: "sem"}}>Semester 2</div>
               <div className="header__semester" style={{ gridColumnStart: "p5", gridColumnEnd: "span 2", gridRowStart: "sem"}}>Semester 3</div>
               <div className="header__semester" style={{ gridColumnStart: "p7", gridColumnEnd: "span 2", gridRowStart: "sem"}}>Semester 4</div>
+              {isFebStarters && 
+                <>
+                  <div className="header__semester" style={{ gridColumnStart: "p9", gridColumnEnd: "span 2", gridRowStart: "sem"}}>Semester 5</div>
+                  <div className="header__semester" style={{ gridColumnStart: "p11", gridColumnEnd: "span 2", gridRowStart: "sem"}}>Semester 6</div>
+                </>
+              }
               <div className="header__period" style={{ gridColumnStart: "p1", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 1</div>
               <div className="header__period" style={{ gridColumnStart: "p2", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 2</div>
               <div className="header__period" style={{ gridColumnStart: "p3", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 3</div>
@@ -89,6 +103,14 @@ function App() {
               <div className="header__period" style={{ gridColumnStart: "p6", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 6</div>
               <div className="header__period" style={{ gridColumnStart: "p7", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 7</div>
               <div className="header__period" style={{ gridColumnStart: "p8", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 8</div>
+              {isFebStarters && 
+                <>
+                  <div className="header__period" style={{ gridColumnStart: "p9", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 9</div>
+                  <div className="header__period" style={{ gridColumnStart: "p10", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 10</div>
+                  <div className="header__period" style={{ gridColumnStart: "p11", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 11</div>
+                  <div className="header__period" style={{ gridColumnStart: "p12", gridColumnEnd: "span 1", gridRowStart: "per"}}>Periode 12</div>
+                </>
+              }
               {dataFilteredCurriculum && dataFilteredCurriculum.courses && dataFilteredCurriculum.courses.map((course) => {
                 const fData = dataFilteredCurriculum.courses.filter(c => c.learningLineCode === course.learningLineCode && c.semester === course.semester && (c.period === course.period || (typeof c.period === 'string' && c.period.indexOf(course.period.toString()) !== -1) || (typeof course.period === 'string' && course.period.indexOf(c.period.toString()) !== -1)));
 
