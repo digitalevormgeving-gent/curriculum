@@ -12,7 +12,7 @@
             "period": "1+2",
             "semester": 1,
             "learningLineCode": "dcs",
-            "lecturers": ["CGR", "JCB", "FTH"],
+            "lecturers": ["JCB", "SSG", "EDS"],
             "tags": [
                 "persoonlijke ontwikkeling",
                 "professionele communicatie"
@@ -27,7 +27,7 @@
             "period": "3+4",
             "semester": 2,
             "learningLineCode": "dcs",
-            "lecturers": ["LRT", "SVP", "PHM", "SDK"],
+            "lecturers": ["LRT", "JCB", "SSG", "EDS"],
             "tags": [
                 "ambassadeursschap",
                 "design research",
@@ -44,7 +44,7 @@
             "period": "5+6",
             "semester": 3,
             "learningLineCode": "dcs",
-            "lecturers": ["TBD"],
+            "lecturers": ["LDS", "TGS"],
             "tags": [
                 "ambassadeursschap",
                 "design research",
@@ -61,7 +61,7 @@
             "period": 7,
             "semester": 3,
             "learningLineCode": "dcs",
-            "lecturers": ["TBD"],
+            "lecturers": ["RVH", "MSN"],
             "tags": [
                 "ambassadeursschap",
                 "design research",
@@ -79,7 +79,7 @@
             "period": "1+2",
             "semester": 1,
             "learningLineCode": "dat",
-            "lecturers": ["SVP","DPR","LRT"],
+            "lecturers": ["SVP", "LRT", "DPR", "JLB","MNT", "TBD"],
             "tags": [
                 "html",
                 "css"
@@ -107,7 +107,7 @@
             "period": 4,
             "semester": 2,
             "learningLineCode": "dat",
-            "lecturers": ["SVP","LRT"],
+            "lecturers": ["SVP","LRT", "DPS"],
             "specializationCode": "ifd"
         },
         {
@@ -120,7 +120,7 @@
             "period": 5,
             "semester": 3,
             "learningLineCode": "dat",
-            "lecturers": ["TBD"],
+            "lecturers": ["SVP", "BVW"],
             "specializationCode": "ifd"
         },
         {
@@ -133,7 +133,7 @@
             "period": 5,
             "semester": 3,
             "learningLineCode": "dat",
-            "lecturers": ["TBD"],
+            "lecturers": ["BVW", "SVP"],
             "specializationCode": "ifd"
         },
         {
@@ -159,7 +159,7 @@
             "period": 1,
             "semester": 1,
             "learningLineCode": "aad",
-            "lecturers": ["IHS","LRT", "DPR"],
+            "lecturers": ["IHS", "DPR", "BBS", "TBD"],
             "tags": [
                 "javascript",
                 "nodejs",
@@ -178,7 +178,7 @@
             "period": 1,
             "semester": 1,
             "learningLineCode": "aad",
-            "lecturers": ["BVW","LRT","SVP"],
+            "lecturers": ["LRT", "HMR", "BBS"],
             "tags": [
                 "javascript",
                 "nodejs",
@@ -218,7 +218,7 @@
             "period": 2,
             "semester": 1,
             "learningLineCode": "aad",
-            "lecturers": ["IHS","LRT", "DPR"],
+            "lecturers": ["IHS", "BBS", "TBD"],
             "tags": [
                 "javascript",
                 "nodejs",
@@ -237,7 +237,7 @@
             "period": 2,
             "semester": 1,
             "learningLineCode": "aad",
-            "lecturers": ["RVK"],
+            "lecturers": ["RVK", "TGS"],
             "tags": [
                 "javascript",
                 "nodejs",
@@ -256,7 +256,7 @@
             "period": 3,
             "semester": 2,
             "learningLineCode": "aad",
-            "lecturers": ["TBD"],
+            "lecturers": ["IHS", "TBD"],
             "tags": [
                 "javascript",
                 "nodejs",
@@ -275,7 +275,7 @@
             "period": 3,
             "semester": 2,
             "learningLineCode": "aad",
-            "lecturers": ["SDK"],
+            "lecturers": ["SDK", "LVD"],
             "specializationCode": "cad"
         },
         {
@@ -288,7 +288,7 @@
             "period": 4,
             "semester": 2,
             "learningLineCode": "aad",
-            "lecturers": ["TBD"],
+            "lecturers": ["BVW", "MSN", "YPS"],
             "specializationCode": "cad"
         },
         {
@@ -340,7 +340,7 @@
             "period": 2,
             "semester": 1,
             "learningLineCode": "atw",
-            "lecturers": ["BVW","SVP","RVK","DDP"]
+            "lecturers": ["RVK", "LRT", "HMR", "BBS", "TBD"]
         },
         {
             "id": "25_26_atw2",
@@ -352,7 +352,7 @@
             "period": 4,
             "semester": 2,
             "learningLineCode": "atw",
-            "lecturers": ["IHS","JLB","DDP","LVD"]
+            "lecturers": ["IHS", "JLB", "LVD", "DPS", "TBD"]
         },
         {
             "id": "26_27_atw3",
@@ -364,7 +364,7 @@
             "period": 6,
             "semester": 3,
             "learningLineCode": "atw",
-            "lecturers": ["TBD"]
+            "lecturers": ["SDK", "HMR", "TBD"]
         },
         {
             "id": "26_27_atw4",
@@ -376,7 +376,7 @@
             "period": 7,
             "semester": 4,
             "learningLineCode": "atw",
-            "lecturers": ["TBD"],
+            "lecturers": ["JLB", "IHS", "SVP", "LRT", "BVW", "MSN", "BBS", "TBD"],
             "tags": [
                 "werkplekleren",
                 "eindwerk",
@@ -394,7 +394,7 @@
             "period": 8,
             "semester": 4,
             "learningLineCode": "atw",
-            "lecturers": ["TBD"],
+            "lecturers": ["IVC", "BVW", "LRT", "SSG", "EDS", "JLB", "LDS", "BBS", "TBD"],
             "tags": [
                 "werkplekleren",
                 "stage",

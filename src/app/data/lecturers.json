@@ -78,5 +78,49 @@
     {
         "code": "TBD",
         "name": "To Be Decided"
+    },
+    {
+        "code": "LDS",
+        "name": "Lieven Desomviele"
+    },
+    {
+        "code": "SCR",
+        "name": "Sam Corijn"
+    },
+    {
+        "code": "BBS",
+        "name": "Benoit Bosschaert"
+    },
+    {
+        "code": "MNT",
+        "name": "Marc Nuijten"
+    },
+    {
+        "code": "HMR",
+        "name": "Hadewych Moriau"
+    },
+    {
+        "code": "RVH",
+        "name": "Rob Vanhees"
+    },
+    {
+        "code": "MSN",
+        "name": "Merel Snels"
+    },
+    {
+        "code": "YPS",
+        "name": "Yves Peeters"
+    },
+    {
+        "code": "BVW",
+        "name": "Benedikte Vanderweeën"
+    },
+    {
+        "code": "EDS",
+        "name": "Evelyne De Smet"
+    },
+    {
+        "code": "SSG",
+        "name": "Stephanie Segers"
     }
 ]
